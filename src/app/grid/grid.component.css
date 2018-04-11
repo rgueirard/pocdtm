@@ -1,0 +1,51 @@
+#plate-grid {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  padding: 20px;
+  background: #a2d2ff;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.row:first-child .cell {
+  border-top: 2px solid #000;
+}
+
+.row .cell:first-child {
+  border-left: 2px solid #000;
+}
+
+.row .cell {
+    width:50px;
+    height: 50px;
+    background: #F5D5B0;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    display: flex;
+}
+
+#render {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  padding: 20px;
+  background: #000;
+  justify-content: center;
+  align-items: center;
+}
+
+#render  img {
+  min-width: 100px;
+  min-height: 100px;
+  background: #500;
+}
+
+#render button {
+  background-color: #FDB;
+  width: 50px;
+}
